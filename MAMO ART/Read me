@@ -1,0 +1,63 @@
+MoMoart
+
+MoMA Art Explorer
+Build an interactive tool to explore the artwork at the Museum of Modern Art (MoMA)
+
+
+------------------------------------------------------------------------
+Objective 1
+Clean & prepare the data
+Your first objective is to clean the artwork data by looking up the artist(s) for each piece and extracting it's date of creation.
+
+Task
+Open the MoMA_OnView.xslx file and review the data in each tab
+
+
+Look up the Artist for each artwork by using the ConstituentID field
+Create a CleanDate column that extract the first 4 numeric characters from each Date
+
+
+Clean the OnView column by removing the “MoMA” prefix and quotation marks
+-------------------------------------------------------------------------------------------
+Objective 2
+Extract artist information
+Your second objective is to create dependent dropdown lists for nationality and artist, and display their number of artworks and their earliest & latest work on display.
+Task
+In a new sheet, create a dropdown list with artists’ Nationality in alphabetical order
+ 
+Create a second, dependent dropdown list with the Artists for the selected nationality
+
+ 
+Calculate the number of Artworks on display for the selected artist
+ 
+Return the CleanDate for the earliest and latest artwork on display for the selected artist
+
+ 
+
+
+-------------------------------------------------------------------------------
+
+Objective 3
+Display their work
+Your final objective is to return additional information on the selected artist's earliest work after a certain date, along with the image of the artwork itself
+Task
+Return the Title, CleanDate, Medium, Dimensions, Classification, Department, DateAcquired, ImageURL, and OnView for each of the selected artist’s artworks
+
+ 
+Create a new data validation rule where the user can type in the Min Year to filter the selected artist’s work by
+
+ 
+Incorporate the Min Year into the filter criteria for the artwork returned
+ 
+Filter and transpose the list so that you only show the details for their earliest artwork
+ 
+Use the ImageURL to display the artwork inside of a cell
+ 
+
+
+Final Step
+Final Project Question
+Answer the following question to validate your completed project.
+What is the title of Mexican artist Diego Rivera's earliest work on display?
+Type your answer here--Cubist Landscape	
+Enter your answer exactly as it appears in the data
